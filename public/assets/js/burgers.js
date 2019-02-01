@@ -1,5 +1,3 @@
-import { EventEmitter } from "events";
-
 $(function() {
     $(".devour-button").on("click", event => {
         const id = $(this).data("id");
